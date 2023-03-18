@@ -471,6 +471,10 @@ button {
   line-height: 1.5;
   color: var(--hero-text-color);
 }
+.footer-frm {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer-logo {
   color: var(--text-for-logofooter-bg-ourteam-color);
@@ -520,6 +524,7 @@ button {
 }
 
 .footer-box-with-frm {
+  flex-direction: row;
 }
 .inpt-footer-email {
   margin-top: 16px;
