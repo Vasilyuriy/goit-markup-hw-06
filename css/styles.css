@@ -179,6 +179,8 @@ button {
   border-radius: 4px;
   text-align: center;
   font-family: inherit;
+  min-width: 169px;
+  min-height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -473,6 +475,7 @@ button {
 }
 .footer-frm {
   display: flex;
+  margin-top: 16px;
 }
 
 .footer-logo {
@@ -525,7 +528,6 @@ button {
 .footer-box-with-frm {
 }
 .inpt-footer-email {
-  margin-top: 16px;
   padding-left: 15px;
   width: 263px;
   height: 40px;
@@ -552,6 +554,8 @@ button {
 .btn-submit {
   display: flex;
   align-items: center;
+  min-height: 40px;
+  min-width: 165px;
   margin-left: 24px;
   padding: 8px 24px;
   border-radius: 4px;
@@ -877,8 +881,8 @@ button {
 .modal-form-img {
   display: block;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 100px;
+  height: 24px;
   margin-left: 16px;
   top: 50%;
   left: 0;
