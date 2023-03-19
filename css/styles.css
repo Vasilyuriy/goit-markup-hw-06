@@ -473,7 +473,6 @@ button {
 }
 .footer-frm {
   display: flex;
-  flex-direction: column;
 }
 
 .footer-logo {
@@ -524,7 +523,6 @@ button {
 }
 
 .footer-box-with-frm {
-  display: flex;
 }
 .inpt-footer-email {
   margin-top: 16px;
@@ -551,7 +549,7 @@ button {
   letter-spacing: 0.04em;
 }
 
-.btn-submit-frm {
+.btn-submit {
   display: flex;
   align-items: center;
   margin-left: 24px;
