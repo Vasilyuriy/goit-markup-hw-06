@@ -810,7 +810,6 @@ button {
 }
 
 .modal-form-input {
-  margin-bottom: 4px;
   width: 100%;
   height: 40px;
   color: var(--headers-color);
