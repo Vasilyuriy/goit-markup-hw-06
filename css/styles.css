@@ -879,10 +879,8 @@ button {
 }
 
 .modal-form-img {
-  display: block;
+  display: flex;
   position: absolute;
-  width: 100px;
-  height: 24px;
   margin-left: 16px;
   top: 50%;
   left: 0;
