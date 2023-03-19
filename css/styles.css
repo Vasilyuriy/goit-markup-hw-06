@@ -775,7 +775,7 @@ button {
 }
 .modal-form-field {
   display: block;
-  margin-top: 16px;
+  margin-top: 8px;
   color: rgba(142, 143, 153, 1);
   font-family: inherit;
   font-weight: 400;
@@ -792,6 +792,7 @@ button {
 }
 
 .modal-frm-inpt-desc {
+  margin-bottom: 4px;
 }
 
 .modal-form-input,
