@@ -524,7 +524,7 @@ button {
 }
 
 .footer-box-with-frm {
-  flex-direction: row;
+  display: flex;
 }
 .inpt-footer-email {
   margin-top: 16px;
@@ -918,5 +918,7 @@ button {
 .custom-checkbox:checked + label::before {
   border-color: #0b76ef;
   background-color: #0b76ef;
-  background-image: url("./images/symbol-defs2.svg#icon-click-checkbox");
+  background-image: url("../images/click-checkbox.svg");
+  background-size: contain;
+  background-position: 50% 50%;
 }
